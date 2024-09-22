@@ -100,7 +100,7 @@ This template includes a unified response structure and global error handling fo
 
 ```typescript
 export const sendResponse = (
-  res,
+  res: Response,
   success: boolean,
   message: string = "Success",
   data: any = null,
